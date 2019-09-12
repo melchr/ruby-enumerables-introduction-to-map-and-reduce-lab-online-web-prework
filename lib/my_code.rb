@@ -54,7 +54,7 @@ def reduce_to_all_true(array)
     return false if 
     counter += 1 
   end
-  return
+  return true
 end
 
 
