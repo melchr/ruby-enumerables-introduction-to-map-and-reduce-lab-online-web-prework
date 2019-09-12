@@ -45,7 +45,7 @@ def reduce_to_total(array, starting_point=0)
     final_array.push(array[counter] ** 2)
     counter += 1 
   end
-  final_array
+  total
 end
 
 
