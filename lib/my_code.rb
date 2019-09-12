@@ -67,7 +67,7 @@ def reduce_to_any_true(array)
     else
       return true
     end
-    counter++
+    counter += 1
   end
 end 
 
