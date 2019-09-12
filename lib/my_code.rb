@@ -49,7 +49,6 @@ def reduce_to_total(array, starting_point=0)
 end
 
 def reduce_to_all_true(array, starting_point=0)
-  total = starting_point
   counter = 0
   while counter < array.size do
     total += array[counter]
